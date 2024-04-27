@@ -36,17 +36,17 @@ const Login = () => {
   return (
     <div className='bg-overlay w-full h-screen fixed z-2 t-0 r-0 l-0 b-0'>
       <div className='flex w-full h-screen flex-col items-center justify-center '>
-        <div className='bg-white w-full md:rounded-lg items-center md:max-w-[450px] h-screen md:max-h-[450px] w-[450px] md:h-[500px] justify-center flex flex-col'>
+        <div className='bg-white w-full md:rounded-lg items-center md:max-w-[450px] h-screen md:max-h-[450px] w-[450px] md:h-[450px] justify-center lg:justify-start flex flex-col'>
           <img
             src={TwitterIcon}
             className='w-[40px] md:mt-[24px] h-[36px]'
             alt=''
           />
-          <div className='w-[300px]  flex flex-col md:mt-[32px] gap-[24px]'>
+          <div className='w-[300px]  flex flex-col md:mt-[8px] gap-[24px]'>
             <h1 className='font-bold text-center leading-[32px] text-4xl'>
               Login
             </h1>
-            <div className='mt-[54px] h-[44px] w-full flex'>
+            <div className='lg:mt-[54px] h-[44px] w-full flex'>
               {!isPending ? (
                 <button
                   // This onclick triggers the login function

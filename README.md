@@ -1,6 +1,7 @@
 # twitter-auth
 
 React twitter auth
+npm run dev to start the application
 
 # ReactJS Developer - Twitter API Integration
 
